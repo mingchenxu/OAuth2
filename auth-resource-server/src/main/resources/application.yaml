@@ -1,0 +1,11 @@
+
+security:
+  oauth2:
+    resource:
+      # 从OAUTH服务端校验token的地址
+      token-info-uri: http://auth.bigfb.com:7777/oauth/check_token
+      # 从OAUTH服务端获取用户信息的接口地址
+      user-info-uri: http://auth.bigfb.com:7777/user
+
+server:
+  port: 7778

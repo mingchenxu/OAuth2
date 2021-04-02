@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>CMS-登录</title>
+</head>
+<body>
+    <div style="text-align: center">
+        <span>暂未接入账号体系，请点击下面的图标进行第三方登录</span>
+        <p>
+            <img th:src="@{asserts/img/su.png}" onclick="goThirdLogin()" style="width: 100px; height: 100px" />
+        </p>
+    </div>
+</body>
+<script type="text/javascript" >
+
+    function goThirdLogin() {
+        let clientId = 'cms'
+        let responseType = 'code'
+        let redirectUri = encodeURIComponent('http://www.smallfb.com:7000/thirdLogin?authType=auth')
+        // oauth 服务地址
+        window.open('http://auth.bigfb.com:7777/oauth/authorize?client_id=' + clientId + '&response_type=' + responseType + '&redirect_uri=' + redirectUri)
+    }
+
+</script>
+</html>
