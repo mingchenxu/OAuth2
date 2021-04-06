@@ -1,15 +1,0 @@
-
-P
-java:S1068".Remove this unused "SCOPE_READ" private field.(ëá¥ûÿÿÿÿ8Òß©äÄ.
-_
-java:S1068!"BRemove this unused "REFRESH_TOKEN_VALIDITY_SECONDS" private field.(ÊÅŸá8ç³ôÄ.
-^
-java:S1068 "ARemove this unused "ACCESS_TOKEN_VALIDITY_SECONDS" private field.(ˆó8óÿ¤åÄ.
-L
-java:S1068"/Remove this unused "SCOPE_WRITE" private field.(ôı¼à8Òß©äÄ.
-L
-java:S1068+"/Remove this unused "RESOURCE_ID" private field.(”×Ø™8¼¨œäÄ.
-F
-java:S1068")Remove this unused "TRUST" private field.(îØ¾ó8Òß©äÄ.
-E
-java:S1068"(Remove this unused "USER" private field.(öí’Õ8Òß©äÄ.
