@@ -1,0 +1,17 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../:\personal\workspace\auth-resource-server\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+/*/.idea
+/*/target
+/auth-client-account/.idea
+/auth-client-account/target
+/auth-resource-server/.idea
+/auth-resource-server/target
+/auth-server/.idea
+/auth-server/target
+
